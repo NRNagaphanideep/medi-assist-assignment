@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./Components/Header";
+import AACA from "./Components/AACA";
+import Choose from "./Components/Choose";
+import Learn from "./Components/Learn";
+import Placement from "./Components/Placement";
+import StartPrep from "./Components/StartPrep";
 
-function App() {
+import "./App.css";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="landing-page">
+      <Header />
+      <AACA />
+      <Choose />
+      <Learn />
+      <Placement />
+      <StartPrep />
     </div>
   );
-}
+};
 
 export default App;
