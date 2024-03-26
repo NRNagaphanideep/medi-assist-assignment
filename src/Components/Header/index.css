@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px 20px; */
+  background-color: #340180;
+  color: white;
+  padding: 0px 20px;
+}
+.header-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.header-login {
+  padding: 10px 40px;
+  font-weight: bold;
+}
+.header-name {
+  font-size: 30px;
+  margin-left: 10px;
+}
