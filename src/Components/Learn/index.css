@@ -1,0 +1,51 @@
+.learn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.learn-heading {
+  border-bottom: 5px solid #340180;
+  margin-bottom: 40px;
+}
+.learn-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+.learn-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #000;
+  width: 30%;
+  background-color: #e5f4ff;
+}
+.learn-card ul {
+  height: 220px;
+  font-size: 20px;
+  background-color: #d1edf978;
+  overflow-y: hidden;
+}
+.learn-cards div div {
+  width: 100%;
+  background-color: #340180;
+  color: #fff;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .learn-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .learn-card {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
